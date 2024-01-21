@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
 	return (
-		<div className="bg-primary h-60 w-full border-2 border-black text-josefin flex justify-evenly items-center">
-			<div className="flex flex-col  gap-3">
+		<div className="bg-primary h-64 w-full text-josefin flex justify-evenly items-center md:flex-nowrap flex-wrap py-10 ">
+			<div className="flex flex-col gap-3">
 				<div className="text-xl">Beautiful You</div>
 				<div>
 					<a className="text-black" href="beautifulyou@gmail.com">
@@ -18,7 +18,7 @@ function Footer() {
 					<div className="cursor-pointer">About Us</div>
 				</div>
 			</div>
-			<div className="flex items-end h-[7rem] gap-2">
+			<div className="flex items-start md:items-end h-[7rem] gap-2">
 				<a
 					className="text-black "
 					href="https://www.youtube.com/@beautifulyou2321"

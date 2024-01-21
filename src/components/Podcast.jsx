@@ -2,12 +2,12 @@ import React from 'react';
 
 function Podcast() {
 	return (
-		<div className="bg-primary flex flex-col justify-center items-center gap-3 w-full h-content py-6">
-			<div className="text-black text-5xl font-medium font-playfair">
+		<div className="bg-primary flex flex-col justify-center items-center  gap-3 w-full h-content py-6">
+			<div className="text-black text-4xl md:text-5xl font-medium font-playfair flex flex-col justify-center items-center">
 				TOP PODCAST EPISODES
 			</div>
 			<div className="md:w-96 w-40 h-[1px] bg-black"></div>
-			<div className="flex justify-between w-content h-content md:gap-24 pt-6 pb-16">
+			<div className="flex md:flex-nowrap flex-wrap items-center justify-between w-full h-full gap-6 md:gap-24 pt-6 pb-16 px-32 md:px-0">
 				<div className="w-72 h-96 relative  hover:scale-105 ease-in-out duration-500">
 					<img
 						src="./img1.png"
