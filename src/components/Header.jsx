@@ -8,7 +8,7 @@ function Header() {
 	};
 	return (
 		<header>
-			<nav className="bg-primary w-full flex flex-col justify-center items-center h-24">
+			<nav className="bg-primary w-full flex flex-col justify-center items-center h-24 fixed ">
 				<div className="text-black  flex justify-between w-full gap-4  h-content px-8">
 					<div className="w-full">Beautiful You</div>
 					{/*Desktop Navbar*/}

@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header';
 import Newsletter from '../components/Newsletter';
+import Podcast from '../components/Podcast';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
@@ -14,10 +15,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header  client:load/>
 		<Newsletter />
-		<main>
-			<div class="text-xl font-josefin">This is text in Josefin Sans</div>
-			<div class="text-xl font-playfair">This is text in Playfair Display</div>
-		</main>
+		<Podcast />
 		<Footer />
 	</body>
 </html>
