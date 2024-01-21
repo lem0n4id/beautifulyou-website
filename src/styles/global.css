@@ -9,19 +9,35 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+ @layer base {
+	:root {
+		--accent: #2337ff;
+		--accent-dark: #000d8a;
+		--black: 15, 18, 25;
+		--gray: 96, 115, 159;
+		--gray-light: 229, 233, 240;
+		--gray-dark: 34, 41, 57;
+		--gray-gradient: rgba(var(--gray-light), 50%), #fff;
+		--box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
+			0 16px 32px rgba(var(--gray), 33%);
+	}
 
-:root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
-	--box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-		0 16px 32px rgba(var(--gray), 33%);
-}
-body {
+	.hero-gradient {
+		background: linear-gradient(268deg, #FFC684 30.79%, rgba(255, 198, 132, 0.00) 90.49%);
+	}
+	.hero-gradient-mobile {
+		background: linear-gradient(180deg, #FFC684 0%, #FDE7E6 81.97%);	
+	}
+	/* customized - diff from figma */
+	.our-mission-gradient {
+		background: linear-gradient(60deg, #FFC684 0.09%, rgba(255, 198, 132, 0.00) 70.16%);
+	}
+	.our-mission-gradient-mobile {
+		background: linear-gradient(180deg, #FDE7E6 6.71%, #FFC685 99.99%, #FFC684 100%);
+	}
+ }
+
+/* body {
 	font-family: @apply font-josefin;
 	margin: 0;
 	padding: 0;
@@ -33,14 +49,14 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
-}
-main {
-	/* width: 720px;
+} */
+/* main {
+	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em; */
-}
-h1,
+	padding: 3em 1em;
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -49,8 +65,8 @@ h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
-}
-h1 {
+} */
+/* h1 {
 	font-size: 3.052em;
 }
 h2 {
@@ -64,8 +80,8 @@ h4 {
 }
 h5 {
 	font-size: 1.25em;
-}
-strong,
+} */
+/* strong,
 b {
 	font-weight: 700;
 }
@@ -87,7 +103,7 @@ textarea {
 }
 input {
 	font-size: 16px;
-}
+} */
 table {
 	width: 100%;
 }
@@ -118,14 +134,14 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
-@media (max-width: 720px) {
+/* @media (max-width: 720px) {
 	body {
 		font-size: 18px;
 	}
 	main {
 		padding: 1em;
 	}
-}
+} */
 .podcast-gradient{
 	background: linear-gradient(359deg, #FCC6C5 35.18%, rgba(255, 198, 132, 0.00) 97.71%);
 }
