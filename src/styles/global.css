@@ -134,4 +134,7 @@ hr {
 		padding: 1em;
 	}
 } */
+.podcast-gradient{
+	background: linear-gradient(359deg, #FCC6C5 35.18%, rgba(255, 198, 132, 0.00) 97.71%);
+}
 

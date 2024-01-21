@@ -1,7 +1,9 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Header from '../components/Header';
+import Newsletter from '../components/Newsletter';
+import Podcast from '../components/Podcast';
+import Footer from '../components/Footer';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Hero from '../components/Hero';
 ---
@@ -12,10 +14,10 @@ import Hero from '../components/Hero';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<Hero />
-		</main>
-		<Footer />
+		<Header  client:load/>
+    <Hero />
+		<Newsletter />
+		<Podcast />
+		<Footer/>
 	</body>
 </html>
