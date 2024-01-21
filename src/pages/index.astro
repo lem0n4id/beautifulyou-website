@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header';
 import Newsletter from '../components/Newsletter';
 import Podcast from '../components/Podcast';
-import Footer from '../components/Footer.astro';
+import Footer from '../components/Footer';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -16,6 +16,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Header  client:load/>
 		<Newsletter />
 		<Podcast />
-		<Footer />
+		<Footer/>
 	</body>
 </html>
