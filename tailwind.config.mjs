@@ -7,8 +7,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				"josefin": ["Josefin Sans", ...defaultTheme.fontFamily.sans],
-				"playfair": ["Playfair Display", ...defaultTheme.fontFamily.sans],
+				"josefin": ["Josefin Sans Variable", ...defaultTheme.fontFamily.sans],
+				"playfair": ["Playfair Display Variable", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
