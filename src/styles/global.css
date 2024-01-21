@@ -26,7 +26,15 @@
 		background: linear-gradient(268deg, #FFC684 30.79%, rgba(255, 198, 132, 0.00) 90.49%);
 	}
 	.hero-gradient-mobile {
-		background: linear-gradient(180deg, #FFC684 0%, #FDE7E6 81.97%);	}
+		background: linear-gradient(180deg, #FFC684 0%, #FDE7E6 81.97%);	
+	}
+	/* customized - diff from figma */
+	.our-mission-gradient {
+		background: linear-gradient(60deg, #FFC684 0.09%, rgba(255, 198, 132, 0.00) 70.16%);
+	}
+	.our-mission-gradient-mobile {
+		background: linear-gradient(180deg, #FDE7E6 6.71%, #FFC685 99.99%, #FFC684 100%);
+	}
  }
 
 /* body {
