@@ -5,6 +5,7 @@ import Newsletter from '../components/Newsletter';
 import Podcast from '../components/Podcast';
 import Footer from '../components/Footer';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Hero from '../components/Hero';
 ---
 
 <!doctype html>
@@ -14,6 +15,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<Header  client:load/>
+    <Hero />
 		<Newsletter />
 		<Podcast />
 		<Footer/>
