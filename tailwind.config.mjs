@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				"josefin": ["Josefin Sans", "sans-serif"],
-				"playfair": ["Playfair Display", "sans-serif"],
+				josefin: "Josefin Sans, sans-serif",
+				playfair: "Playfair Display, sans-serif",
 			},
 		},
 	},
