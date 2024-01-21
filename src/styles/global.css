@@ -145,4 +145,7 @@ hr {
 .podcast-gradient{
 	background: linear-gradient(359deg, #FCC6C5 35.18%, rgba(255, 198, 132, 0.00) 97.71%);
 }
+.collab-gradient{
+	background: linear-gradient(180deg, #FFC684 0%, #FCC6C5 81.29%);
+}
 
