@@ -7,6 +7,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://beautifulyou-website.vercel.app/',
+  site: 'https://beautifulyou-website-git-add-meta-tags-lem0n4id.vercel.app/',
   integrations: [mdx(), sitemap(), tailwind(), react()]
 });
